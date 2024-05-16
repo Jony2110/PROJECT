@@ -1,9 +1,11 @@
 import { Container, Switch } from '@mui/material';
 import React, { useState } from 'react';
-import { Route, Router } from 'react-router-dom';
+import {  Route, Router , } from 'react-router-dom';
 import LoginPage from './Login';
 import SignUpPage from './SignUp';
-import HomePage from './Home';
+import HomePage from './pages';
+
+
 
 
 function App() {
